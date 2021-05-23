@@ -13,5 +13,12 @@
 <ul>
 <li>button</li>
 <li>click show random toast message</li>
+</ul>
+
+3.Binary converter⭕
+<ul>
+<li>charCodeAt()</li>
+<li>toString()</li>
+
 
 </ul>
