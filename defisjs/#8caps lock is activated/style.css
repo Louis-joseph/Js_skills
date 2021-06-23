@@ -1,0 +1,12 @@
+#warning 
+{
+    display: none;
+    color: orange;
+    background-color: crimson;
+}
+
+#active 
+{
+    display: none;
+    color: yellowgreen;
+}
