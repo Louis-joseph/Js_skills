@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget Mensuel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+          <h1>Budget Mensuel</h1>
+        </div>
+        <!-- Afficher le montant du budget -->
+        <div class="budget-section">
+          <div class="budget col col-md col-sm">
+            <h2>budget</h2>
+            <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+            <lottie-player src="https://assets1.lottiefiles.com/packages/lf20_SyUX5x.json"  background="transparent"  speed="1"  style="width: 100px; height: 100px;"  loop  autoplay></lottie-player>
+            <p class="amount">€ <span id="budgetAmount">0</span></p>
+          </div>
+           <!-- Afficher le montant du solde -->
+          <div class="expenses col col-md col-sm">
+            <h2>Depenses</h2>
+            <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+            <lottie-player src="https://assets8.lottiefiles.com/packages/lf20_rqes9zyp.json"  background="transparent"  speed="1"  style="width: 100px; height: 100px;"  loop  autoplay></lottie-player>
+            <p class="exp-amount">€ <span id="expensesAmount">0</span></p>
+          </div>
+          <!-- Afficher les dépenses totales -->
+          <div class="balance col col-md col-sm">
+            <h2>balance</h2>
+            <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+            <lottie-player src="https://assets5.lottiefiles.com/private_files/lf30_jwlksc.json"  background="transparent"  speed="1"  style="width: 100px; height: 100px;"  loop  autoplay></lottie-player>
+            <p class="amount bala">€ <span id="balanceAmount">0</span></p>
+          </div>
+        </div>
+
+        <div id="displayExpenses">
+          <div class="budget-list">
+            <div class="col">
+              <h4>Titre :</h4>
+            </div>
+            <div class="col">
+              <h4>Ça m'a couté : </h4>
+            </div>
+            <div class="col"></div>
+          </div>
+          <div id="expValue"></div>
+        </div>
+      </div>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
